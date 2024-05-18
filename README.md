@@ -79,7 +79,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Acknowledgements
 This app uses the Firebase Firestore for backend data management.
 Special thanks to the Android community for their tutorials and open-source contributions.
-Contact
-If you have any questions or feedback, feel free to reach out to the project maintainer at [your-email@example.com].
 
 By following this README, you should be able to set up, run, and contribute to the Attendance Tracker App. Happy coding!
