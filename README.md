@@ -1,4 +1,4 @@
-#Attendance Tracker App
+Attendance Tracker App
 Overview
 The Attendance Tracker App is an Android application designed to manage and track student attendance. It leverages Firebase Firestore for backend data storage, ensuring that attendance records are stored securely and can be accessed in real-time.
 
