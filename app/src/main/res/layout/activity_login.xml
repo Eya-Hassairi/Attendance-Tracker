@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bk"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:focusableInTouchMode="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1F5BF3"
+        android:text="Login"
+        android:textSize="24sp" />
+
+    <EditText
+
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/etEmail"
+        android:hint="@string/login_email_hint"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <EditText
+
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/etPassword"
+            android:hint="@string/login_password_hint"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+
+            />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:text="Login"
+        />
+    <TextView
+        android:id="@+id/tvRegister"
+        android:text="@string/login_signup_hint"
+        android:textAlignment="textEnd"
+        android:textColor="@color/primaryTextColor"
+        android:textStyle="bold"
+        android:gravity="end"  android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+    </LinearLayout>
+
+    </RelativeLayout>

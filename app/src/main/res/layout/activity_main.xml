@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Title or Header -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance Tracker"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Container for Buttons -->
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:padding="16dp">
+
+        <!-- Record Attendance Button -->
+        <Button
+            android:id="@+id/btnRecordAttendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Record Attendance"
+            android:textColor="#FFF"
+            android:backgroundTint="#6200EE"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp" />
+
+        <!-- View Attendance Button -->
+        <Button
+            android:id="@+id/btnViewAttendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Attendance"
+            android:textColor="#FFF"
+            android:backgroundTint="#03DAC5"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp" />
+
+        <!-- View Student Attendance Button -->
+        <Button
+            android:id="@+id/btnViewStudentAttendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Student Attendance"
+            android:textColor="#FFF"
+            android:backgroundTint="#FF0266"
+            android:padding="16dp" />
+    </LinearLayout>
+</RelativeLayout>

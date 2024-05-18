@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "590677644508",
+    "project_id": "financetracker-6f287",
+    "storage_bucket": "financetracker-6f287.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590677644508:android:3c79d063b5496500599019",
+        "android_client_info": {
+          "package_name": "com.example.attendancetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAICQADdWbYqGkWIz6qN4CwHGqauFVU-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590677644508:android:4eef06c2e8da7fc8599019",
+        "android_client_info": {
+          "package_name": "com.example.financetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAICQADdWbYqGkWIz6qN4CwHGqauFVU-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

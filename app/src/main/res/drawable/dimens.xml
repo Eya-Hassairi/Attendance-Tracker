@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <dimen android:name="headerTextSize"
+        tools:ignore="ExtraText">30sp</dimen>
+    <dimen android:name="newsMoreTextSize">12sp</dimen>
+    <dimen android:name="loginCardRadius">20dp</dimen>
+    <dimen android:name="loginViewsMargin">20dp</dimen>
+    <dimen android:name="signup_text_margin_top">10dp</dimen>
+
+</resources>
+
